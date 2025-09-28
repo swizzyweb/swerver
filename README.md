@@ -32,3 +32,13 @@ Swerve args can be passed in the same as swerve.
 ```
 swerver --port 3006 --nodeModulesPath $(pwd)/myPath
 ```
+
+# Screenshots
+
+## Add Service
+
+![Add service page of Swerver portal](http://https://github.com/swizzyweb/swerver/images/add_service.png)
+
+## Service Management
+
+![Service management page of Swerver portal](http://https://github.com/swizzyweb/swerver/images/manage_service.png)
