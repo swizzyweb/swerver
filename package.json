@@ -1,6 +1,6 @@
 {
   "name": "@swizzyweb/swerver",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Swerve stack",
   "license": "Apache-2.0",
   "author": "Jason Gallagher",
@@ -29,10 +29,8 @@
     "server:local": "swerve --config ./web-service-config.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@swizzyweb/swerve": "^0.5.7"
-  },
   "dependencies": {
+    "@swizzyweb/swerve": "^0.5.7",
     "@swizzyweb/swerve-frontend-web-service": "^0.1.3",
     "@swizzyweb/swerve-web-service": "^0.1.3"
   },

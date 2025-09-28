@@ -3,4 +3,4 @@
 SCRIPT_PATH=$(realpath "$0")
 SCRIPT_DIR=$(dirname "$SCRIPT_PATH")
 
-swerve "$SCRIPT_DIR/../node_modules/@swizzyweb/swerve-frontend-web-service" "$@"
+$SCRIPT_DIR/../node_modules/.bin/swerve "$SCRIPT_DIR/../node_modules/@swizzyweb/swerve-frontend-web-service" "$@"

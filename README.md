@@ -5,7 +5,7 @@ Swizzyweb swerver is a web service management api and web portal.
 ## Install
 
 ```
-npm install @swizzyweb/swerver
+npm install -g @swizzyweb/swerver
 ```
 
 ## Usage
