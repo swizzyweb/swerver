@@ -19,3 +19,16 @@ swerverf - start frontend server.
 Default port is 3005
 
 Swerve args can be passed in the same as swerve.
+
+## Service args
+
+```
+--port <portValue> - set the port to run on.
+--nodeModulesPath <path> - Where installed node_modules should be placed
+```
+
+### Example
+
+```
+swerver --port 3006 --nodeModulesPath $(pwd)/myPath
+```

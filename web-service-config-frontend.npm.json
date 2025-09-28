@@ -1,8 +1,0 @@
-{
-  "port": "3005",
-  "services": {
-    "Frontend": {
-      "packageName": "@swizzyweb/swerve-frontend-web-service"
-    }
-  }
-}
