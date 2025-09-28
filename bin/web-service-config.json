@@ -1,0 +1,11 @@
+{
+  "port": 3005,
+  "services": {
+    "Frontend": {
+      "servicePath": "../swerve-frontend-web-service/"
+    },
+    "Backend": {
+      "servicePath": "../swerve-web-service/"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@swizzyweb/swerver",
+  "version": "0.1.0",
+  "description": "Swerve stack",
+  "license": "Apache-2.0",
+  "author": "Jason Gallagher",
+  "type": "module",
+  "main": "",
+  "bin": {
+    "swerver": "./bin/run.sh",
+    "swerverb": "./bin/run_backend.sh",
+    "swerverf": "./bin/run_frontend.sh"
+  },
+  "files": [
+    "./bin/*"
+  ],
+  "pkg": {
+    "assets": [
+      "node_modules/**"
+    ]
+  },
+  "scripts": {
+    "server": "swerve --config ./web-service-config.npm.json",
+    "server:local": "swerve --config ./web-service-config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@swizzyweb/swerve": "^0.5.7"
+  },
+  "dependencies": {
+    "@swizzyweb/swerve-frontend-web-service": "^0.1.2",
+    "@swizzyweb/swerve-web-service": "^0.1.2"
+  }
+}

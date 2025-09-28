@@ -1,0 +1,7 @@
+{
+  "services": {
+    "Backend": {
+      "packageName": "@swizzyweb/swerve-web-service"
+    }
+  }
+}

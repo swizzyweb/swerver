@@ -1,0 +1,10 @@
+{
+  "services": {
+    "Frontend": {
+      "packageName": "@swizzyweb/swerve-frontend-web-service"
+    },
+    "Backend": {
+      "packageName": "@swizzyweb/swerve-web-service"
+    }
+  }
+}
