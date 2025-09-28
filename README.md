@@ -39,6 +39,7 @@ swerver --port 3006 --nodeModulesPath $(pwd)/myPath
 
 ![Add service page of Swerver portal](https://raw.githubusercontent.com/swizzyweb/swerver/refs/heads/main/images/add_service.png)
 
+
 ## Service Management
 
-![Service management page of Swerver portal](https://raw.githubusercontent.com/swizzyweb/swerver/refs/heads/main/images/manage_service.png)
+![Service management page of Swerver portal](https://raw.githubusercontent.com/swizzyweb/swerver/refs/heads/addImages/images/manage_service.png)
