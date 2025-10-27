@@ -24,7 +24,7 @@ Swerve args can be passed in the same as swerve.
 
 ```
 --port <portValue> - set the port to run on.
---nodeModulesPath <path> - Where installed node_modules should be placed
+--nodeModulesPath <path> - Where installed node_modules should be placed (Do not include node_modules in the path itself)
 ```
 
 ### Example
