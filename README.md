@@ -42,3 +42,7 @@ swerver --port 3006 --nodeModulesPath $(pwd)/myPath
 ## Service Management
 
 ![Service management page of Swerver portal](https://raw.githubusercontent.com/swizzyweb/swerver/refs/heads/main/images/manage_service.png)
+
+### Breaking Changes
+
+v0.1.3 and later depend on express 5.x, this requires services built with swizzy-common version 0.6.0 or later
