@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-swerve @swizzyweb/swerve-frontend-web-service "$@"
+SCRIPT_PATH=$(realpath "$0")
+SCRIPT_DIR=$(dirname "$SCRIPT_PATH")
+
+$SCRIPT_DIR/../node_modules/.bin/swerve "$SCRIPT_DIR/../node_modules/@swizzyweb/swerve-frontend-web-service" "$@"
