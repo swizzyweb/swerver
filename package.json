@@ -1,6 +1,6 @@
 {
   "name": "@swizzyweb/swerver",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Swerve stack web portal for managing SwizzyWebServices",
   "license": "Apache-2.0",
   "author": "Jason Gallagher",
@@ -31,8 +31,8 @@
   },
   "dependencies": {
     "@swizzyweb/swerve": "^0.6.2",
-    "@swizzyweb/swerve-frontend-web-service": "^0.1.5",
-    "@swizzyweb/swerve-web-service": "^0.1.5"
+    "@swizzyweb/swerve-frontend-web-service": "^0.1.6",
+    "@swizzyweb/swerve-web-service": "^0.1.6"
   },
   "repository": {
     "type": "git",
